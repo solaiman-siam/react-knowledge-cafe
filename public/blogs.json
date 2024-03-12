@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/h182hYv/ales-nesetril-Im7l-Zjxe-Lhg-unsplash.jpg",
+      "title": "Introduction to Machine Learning",
+      "author_img": "https://i.ibb.co/hKFrJNw/usman-yousaf-y-IOVi-GQmj-J4-unsplash.jpg",
+      "author": "John Doe",
+      "posted_date": "2024-03-13",
+      "reading_time": 10,
+      "hashtags": ["machinelearning", "artificialintelligence", "data"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/WHgt8m2/luke-chesser-r-COWMC8qf8-A-unsplash.jpg",
+      "title": "The Importance of Sleep for Mental Health",
+      "author_img": "https://i.ibb.co/qp7cfM0/linkedin-sales-solutions-p-At-A8xe-i-VM-unsplash.jpg",
+      "author": "Jane Smith",
+      "posted_date": "2024-03-12",
+      "reading_time": 8,
+      "hashtags": ["sleep", "mentalhealth", "wellness"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/h182hYv/ales-nesetril-Im7l-Zjxe-Lhg-unsplash.jpg",
+      "title": "10 Tips for Effective Time Management",
+      "author_img": "https://i.ibb.co/hKFrJNw/usman-yousaf-y-IOVi-GQmj-J4-unsplash.jpg",
+      "author": "Alex Johnson",
+      "posted_date": "2024-03-11",
+      "reading_time": 12,
+      "hashtags": ["timemanagement", "productivity", "selfimprovement"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/WHgt8m2/luke-chesser-r-COWMC8qf8-A-unsplash.jpg",
+      "title": "Healthy Eating: A Beginner's Guide",
+      "author_img": "https://i.ibb.co/qp7cfM0/linkedin-sales-solutions-p-At-A8xe-i-VM-unsplash.jpg",
+      "author": "Emily Brown",
+      "posted_date": "2024-03-10",
+      "reading_time": 15,
+      "hashtags": ["healthyeating", "nutrition", "wellness"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/h182hYv/ales-nesetril-Im7l-Zjxe-Lhg-unsplash.jpg",
+      "title": "Exploring Meditation Techniques",
+      "author_img": "https://i.ibb.co/hKFrJNw/usman-yousaf-y-IOVi-GQmj-J4-unsplash.jpg",
+      "author": "Michael Wilson",
+      "posted_date": "2024-03-09",
+      "reading_time": 7,
+      "hashtags": ["meditation", "mindfulness", "wellness"]
+    }
+  ]
+  
