@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react"
+import Blog from "../Blog/Blog";
+
 
 function Blogs() {
     const [blogs, setBlogs] = useState([]);
@@ -9,7 +11,11 @@ function Blogs() {
         .then(data => setBlogs(data))
     }, [])
   return (
-    <div>Blogs</div>
+    <div className="grid col-span-2 space-y-6">
+      {
+        blogs.map((blog,idx) => <Blog key={idx} blog={blog}></Blog>)
+      }
+    </div>
   )
 }
 
