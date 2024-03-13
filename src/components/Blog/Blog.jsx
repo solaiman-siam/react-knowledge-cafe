@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import bookmark from '../../assets/images/Frame.svg'
 function Blog({ blog , handleBookmarks, handleMarkAsRead}) {
-  const { cover, author, author_img, posted_date, reading_time, hashtags,title } = blog;
+  const { cover, author, author_img, posted_date, reading_time, hashtags,title , id} = blog;
   return (
     <div>
 
@@ -33,13 +33,14 @@ function Blog({ blog , handleBookmarks, handleMarkAsRead}) {
         hashtags.map((tag,idx) => <span className="text-[#797979] mr-2 " key= {idx}> #{tag}</span>)
       }
       {/* <h4 className="pt-3"><a   href="">Mark as read</a></h4> */}
-      <button className="underline text-purple-700 font-medium block mt-4" onClick={()=>handleMarkAsRead(reading_time)}> Mark as read</button>
+      <button className="underline text-purple-700 font-medium block mt-4" onClick={()=>handleMarkAsRead( id, reading_time)}> Mark as read</button>
     </div>
   );
 }
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
-  handleBookmarks: PropTypes.func
+  handleBookmarks: PropTypes.func,
+  handleMarkAsRead: PropTypes.func
 };
 export default Blog;

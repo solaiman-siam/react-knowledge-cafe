@@ -20,6 +20,7 @@ function Blogs({handleBookmarks, handleMarkAsRead}) {
   )
 }
 Blogs.propTypes ={
-handleBookmarks: PropTypes.func
+handleBookmarks: PropTypes.func,
+handleMarkAsRead:PropTypes.func
 }
 export default Blogs
